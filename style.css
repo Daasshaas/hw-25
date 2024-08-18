@@ -1,0 +1,27 @@
+div{
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.red{
+    background-color: red;
+    z-index: 100;
+    position: absolute;
+}
+
+.blue{
+    background-color: blue;
+    z-index: 2;
+    top: 40px;
+    left: 40px;
+    position: absolute;
+}
+
+.green{
+    background-color: green;
+    top: 80px;
+    left: 80px;
+    position: absolute;
+}
